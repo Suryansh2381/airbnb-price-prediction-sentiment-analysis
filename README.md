@@ -4,6 +4,40 @@ An end-to-end machine learning project that predicts Airbnb listing prices in Ne
 
 ---
 
+## Live App
+
+[Open Streamlit App](https://airbnb-price-prediction-sentiment-analysis-au68qc2guvmlsn2fcel.streamlit.app/)
+
+---
+
+##  Demo Video
+
+Watch the project demo here:
+
+[Watch Demo Video](https://youtu.be/Ck1-vlmfqII)
+
+---
+
+## Features
+
+- Predict Airbnb listing prices using machine learning
+- Analyze guest review sentiment (Positive / Negative)
+- Interactive Streamlit web application
+
+---
+
+## Screenshots
+
+### Price Prediction
+
+![Price Prediction](screenshots/Demo_price.png)
+
+### Sentiment Analysis
+
+![Sentiment Analysis](screenshots/Demo_sentiment.png)
+
+---
+
 ## Results
 
 | Model           | MAE    | RMSE   | R²     |
@@ -20,12 +54,6 @@ An end-to-end machine learning project that predicts Airbnb listing prices in Ne
 Python, Pandas, Scikit-Learn, XGBoost, LightGBM, SHAP, VADER, Streamlit
 
 ---
-
-## Run Locally
-```bash
-pip install -r requirements.txt
-python -m streamlit run app.py
-```
 
 ## Dataset
 
@@ -44,20 +72,11 @@ python -m streamlit run app.py
 └── neighbourhood_coords.pkl
 ```
 
-## Screenshots
+---
 
-### Price Prediction
+## Run Locally
+```bash
+pip install -r requirements.txt
+python -m streamlit run app.py
+```
 
-![Price Prediction](<screenshots/Demo_price.png>)
-
-### Sentiment Analysis
-
-![Sentiment Analysis](<screenshots/Demo_sentiment.png>)
-
-
-
-##  Demo Video
-
-Watch the project demo here:
-
-[Watch Demo Video](https://youtu.be/Ck1-vlmfqII)
